@@ -27,6 +27,7 @@ This is a command-line based tool developed for **educational and research purpo
 ```bash
 pkg update && pkg upgrade -y
 pkg install git python -y
-git clone https://github.com/yourusername/yourtool.git
-cd yourtool
+git clone https://github.com/official-hacking-termux/zipXtool.git
+cd zipXtool
 pip install -r requirements.txt
+python zip_unlock.py
