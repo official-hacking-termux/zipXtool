@@ -1,4 +1,13 @@
-import os                                                              import time                                                            import random                                                          from colorama import Fore, Style, init                                                                                                        # Initialize colorama for colored output                               init(autoreset=True)                                                                                                                          # Banner design
+import os
+import time                                                                   import random
+from colorama import Fore, Style, init
+
+ # Initialize colorama for colored output
+
+init(autoreset=True)
+
+ # Banner design
+
 def banner():
     os.system('clear')
     print(Fore.GREEN + Style.BRIGHT + """                ╔══════════════════════════════════════════════╗
