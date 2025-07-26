@@ -1,5 +1,6 @@
 import os
-import time                                                                   import random
+import time
+import random
 from colorama import Fore, Style, init
 
  # Initialize colorama for colored output
